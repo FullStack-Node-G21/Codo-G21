@@ -1,0 +1,126 @@
+:root {
+    --negro: #130f40;
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --border: .2rem rgba(0, 0, 0, .1);
+    --outline: .1rem rgba(0, 0, 0, .1);
+    --outline-hover: 2rem solid var(--negro);
+    --bg-color-1: #F3F4F6;
+    --bg-color-2: #b7e020;
+}
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+
+}
+
+html {
+    font-size: 82.5%;
+}
+
+body {
+    background-color: var(--bg-color-1);
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background-color: var(--bg-color-2);
+    box-sizing: var(--box-shadow);
+    
+}
+
+.header .icons div {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color: var(--negro);
+    font-size: 2rem;
+    margin-right: .3rem;
+    text-align: center;
+}
+
+.header .navbar a {
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: var(--negro);
+}
+
+.header .navbar a:hover {
+    color: #746be0;
+}
+
+.header .search-form {
+    position: absolute;
+    top: 110%;
+    /* right: 110%; */
+    width: 50rem;
+    height: 4rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.header .search-form input {
+    height: 100%;
+    width: 100%;
+    background-color: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    color: var(--negro);
+    padding: 0 1.5rem;
+}
+
+.header .search-form label {
+    font-size: 2.2rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    color: var(--negro);
+}
+
+.logo {
+    cursor: default;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.contenedor_slider {
+    width: 80%; 
+    margin: 20px auto; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+}
+
+.slick-slide {
+    display: inline-block;
+    margin-right: 10px; 
+    vertical-align: top; 
+}
+
+.slick-slide img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+}

@@ -1,1 +1,7 @@
-# Codo-G21
+# FullStack.GRUPO21
+
+## Integrantes:
+- Loza Ruiz, Ever
+- 
+-
+-
