@@ -2,6 +2,6 @@
 
 ## Integrantes:
 - Loza Ruiz, Ever
-- 
+- Nievas Braian
 -
 -
