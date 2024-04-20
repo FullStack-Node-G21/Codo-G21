@@ -1,5 +1,6 @@
 :root {
     --negro: #130f40;
+    --negro-transparente: rgba(255, 255, 255, 0) 0%;
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     --border: .2rem rgba(0, 0, 0, .1);
     --outline: .1rem rgba(0, 0, 0, .1);
@@ -23,12 +24,18 @@
 }
 
 html {
-    font-size: 82.5%;
+    font-size: 62.5%;
 }
 
 body {
     background-color: var(--bg-color-1);
 }
+
+
+
+/** >>>>>>>> HEADER >>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
 
 .header {
     position: sticky;
@@ -41,7 +48,7 @@ body {
     padding: 2rem 9%;
     background-color: var(--bg-color-2);
     box-sizing: var(--box-shadow);
-    
+
 }
 
 .header .icons div {
@@ -57,7 +64,7 @@ body {
 }
 
 .header .navbar a {
-    font-size: 1.7rem;
+    font-size: 2.7rem;
     margin: 0 1rem;
     color: var(--negro);
 }
@@ -100,27 +107,115 @@ body {
     font-size: 2rem;
 }
 
+
+/** >>>>>>>> CONTAINER >>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+
 .container {
     display: flex;
     justify-content: center;
     margin-top: 8rem;
 }
 
-.contenedor_slider {
-    width: 80%; 
-    margin: 20px auto; 
-    overflow-x: auto; 
-    white-space: nowrap; 
+.categoria_slider {
+    width: 80%;
+    margin: 20px auto;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .slick-slide {
     display: inline-block;
-    margin-right: 10px; 
-    vertical-align: top; 
+    margin-right: 10px;
+    vertical-align: top;
 }
 
 .slick-slide img {
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/** footer */
+.footer {
+    background-color: white;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .container .caja h3 {
+    font-size: 2.5rem;
+    color: var(--negro);
+    padding: 1rem 0;
+
+}
+
+.footer .container .caja h3 i {
+    color: var(--bg-color-2);
+}
+
+.footer .container .caja .links {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--negro);
+    padding: 1rem 0;
+}
+
+.footer .container .caja .links i {
+    color: var(--bg-color-2);
+    padding-right: .5rem;
+
+}
+
+.footer .container .caja .links:hover i{
+    padding-right: 2rem;
+}
+
+.footer .container .caja p {
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color: var(--negro);
+    padding: 1rem 0;
+}
+
+
+.footer .container .redes a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color: var(--negro);
+    margin-left: .2rem;
+    background: #eee;
+    text-align: center;
+}
+
+.footer .container .redes a:hover {
+    background: orange;
+    color: #fff;
+
+
+}
+
+.footer .container .redes a .email {
+    margin: .7rem 0;
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.6rem;
+    color: var(--negro);
+    text-transform: none;
+}
+
+.footer .container .redes a .payment-img {
+    margin-top: 2rem;
+    height: 3rem;
 }
