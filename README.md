@@ -1,7 +1,7 @@
 # FullStack.GRUPO21
 
-## Integrantes:
+## Integrantes
+
 - Loza Ruiz, Ever
-- Nievas Braian
--
--
+- Nievas, Braian
+- Warno, Fernando
