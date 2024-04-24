@@ -339,9 +339,9 @@ section {
 
 
 
-.space {
+/* .space {
   min-height: 35vh;
-}
+} */
 
 .footer {
   background: var(--light-bg);
@@ -430,6 +430,14 @@ section {
   display: flex;
   gap: 1.5rem;
   margin-top: 2rem;
+}
+
+.credit {
+  text-align: center;
+  padding: 1rem 0;
+  background: var(--green);
+  color: var(--white);
+  font-size: 1.5rem;
 }
 
 /* Media queries */
