@@ -38,6 +38,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section {
+  padding: 3rem 9%;
+}
+
 .btn {
   margin-top: 1rem;
   display: inline-block;
@@ -335,11 +339,98 @@ html {
 
 
 
+.space {
+  min-height: 50vh;
+}
 
+.footer {
+  background: var(--light-bg);
+}
 
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
 
+.footer .box-container .box {
+  padding: 2rem;
+  /* background: var(--white);
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem; */
+}
 
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
 
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  margin-bottom: 0.5rem;
+}
+
+.footer .box-container .box a {
+  font-size: 1.4rem;
+  color: var(--light-color);
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box a:hover {
+  color: var(--green);
+}
+
+.footer .box-container .box a:hover i {
+  padding-right: 2rem;
+}
+
+.footer .box-container .box a i {
+  padding-right: 1rem;
+  color: var(--light-color);
+  font-size: 1.5rem;
+}
+
+.footer .box-container .box .icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer .box-container .box .icons i {
+  font-size: 2.5rem;
+  color: var(--light-color);
+  cursor: pointer;
+}
+
+.footer .box-container .box form input[type="email"] {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  margin: 1rem 0;
+  text-transform: none;
+  border: var(--border);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.footer .box-container .box .payment {
+  width: 100%;
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
 
 /* Media queries */
 
@@ -351,6 +442,10 @@ html {
 
   .header {
     padding: 2rem;
+  }
+
+  section {
+    padding: 3rem 2rem;
   }
 }
 
