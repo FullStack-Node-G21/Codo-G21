@@ -340,7 +340,7 @@ section {
 
 
 .space {
-  min-height: 50vh;
+  min-height: 35vh;
 }
 
 .footer {
@@ -497,7 +497,7 @@ section {
     -moz-border-radius: 0.5;
     -ms-border-radius: 0.5;
     -o-border-radius: 0.5;
-}
+  }
 
 }
 
