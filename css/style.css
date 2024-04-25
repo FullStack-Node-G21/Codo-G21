@@ -336,7 +336,57 @@ section {
   display: none;
 }
 
+/* Home */
+.home { 
+  padding-top: 14rem;
+  background: url(../images/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 
+.home .slides-container .slide {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  display: none;
+}
+
+.home .slides-container .slide.active {
+  display: flex;
+}
+
+.home .slides-container .slide .content {
+  flex: 1 1 40rem;
+}
+
+.home .slides-container .slide .content span {
+  color: var(--light-color);
+  font-size: 2.5rem;
+}
+
+.home .slides-container .slide .content h3 {
+  font-size: 6rem;
+  color: var(--black);
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+}
+
+.home .slides-container .slide .image {
+  flex: 1 1 40rem;
+}
+
+.home .slides-container .slide .image img {
+  width: 100%;
+  /* height: 100%;
+  object-fit: cover; */
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
 
 
 /* .space {
