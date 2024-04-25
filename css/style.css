@@ -336,7 +336,7 @@ section {
   display: none;
 }
 
-/* Home */
+/* Home inicio */
 .home { 
   padding-top: 14rem;
   background: url(../images/home-bg.jpg) no-repeat;
@@ -359,6 +359,8 @@ section {
 
 .home .slides-container .slide .content {
   flex: 1 1 40rem;
+  animation: fadeLeft 0.4s linear;
+  -webkit-animation: fadeLeft 0.4s linear;
 }
 
 .home .slides-container .slide .content span {
@@ -388,10 +390,50 @@ section {
   -o-border-radius: 0.5rem;
 }
 
+#next-slide,
+#prev-slide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  background: var(--white);
+  font-size: 3rem;
+  color: var(--black);
+  cursor: pointer;
+}
 
-/* .space {
-  min-height: 35vh;
-} */
+#prev-slide:hover {
+  background: var(--green);
+  color: var(--white);
+}
+
+#next-slide:hover {
+  background: var(--green);
+  color: var(--white);
+}
+
+#prev-slide {
+  left: 2rem;
+}
+
+#next-slide {
+  right: 2rem;
+}
+
+
+
+
+/* Home fin */
+
+
 
 .footer {
   background: var(--light-bg);
@@ -563,5 +605,9 @@ section {
 
   html {
     font-size: 50%;
+  }
+
+  .home .slides-container .slide .content h3 {
+    font-size: 5rem;
   }
 }
