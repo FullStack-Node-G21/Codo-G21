@@ -42,6 +42,37 @@ section {
   padding: 3rem 9%;
 }
 
+/* Almacen inicio */
+.heading {
+  background: url(../images/heading-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 25rem;
+}
+
+.heading h1 {
+  font-size: 4rem;
+  color: var(--black);
+  padding-bottom: 0rem;
+}
+
+.heading p {
+  font-size: 2rem;
+  color: var(--light-color);
+  padding-top: 1rem;
+}
+
+.heading p a {
+  color: var(--black);
+}
+
+.heading p a:hover {
+  color: var(--green);
+}
+/* Almacen fin */
+
 .btn {
   margin-top: 1rem;
   display: inline-block;
@@ -194,8 +225,8 @@ section {
 
 .shopping-cart .box .fa-times {
   position: absolute;
-  top: 70%;
-  right: 2rem;
+  top: 65%;
+  right: 0rem;
   transform: translateY(-50%);
   font-size: 2rem;
   color: var(--light-color);
