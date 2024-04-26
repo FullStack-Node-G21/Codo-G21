@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Almacen | Los Ahorristas</title>
+  <title>Home  | Los Ahorristas</title>
 
   <!-- font awesome cdn link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -13,7 +12,6 @@
   <!-- custom css file link -->
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
   <!-- header section start -->
   <header class="header">
@@ -24,7 +22,7 @@
       <a href="home.html">home</a>
       <a href="almacen.html">almacén</a>
       <a href="about.html">about</a>
-      <a href="resenia.html">reseña</a>
+      <a href="review.html">reseña</a>
       <a href="blog.html">blog</a>
       <a href="contacto.html">contacto</a>
     </nav>
@@ -84,7 +82,7 @@
       <input type="email" placeholder="enter your email" class="box">
       <input type="password" placeholder="enter your password" class="box">
       <div class="remember">
-        <input type="checkbox" name="" id="remember-me">
+        <input type="checkbox" name= "" id="remember-me">
         <label for="remember-me">remember me</label>
       </div>
       <input type="submit" value="login now" class="btn">
@@ -95,61 +93,85 @@
   </header>
   <!-- header section end -->
 
+  <!-- home section start -->
+  <section class="home">
+    <div class="slides-container">
 
-
-
-  <!-- almacen section start -->
-  <div class="heading">
-    <h1>nuestro almacén</h1>
-    <p> <a href="home.html">home >></a> almacén </p>
-  </div>
-
-  <section class="category">
-
-    <h1 class="title">nuestras <span>categorías</span> <a href="#">ver todas >></a> </h1>
-
-    <div class="box-container">
-        
-        <div class="box">
-          <img src="images/category-1.jpeg" alt="">
-          <div class="content">
-            <h3>frutas frescas</h3>
-          </div>
+      <div class="slide active">
+        <div class="content">
+          <span>frutas frescas</span>
+          <h3>Hasta 40% de descuento</h3>
+          <a href="#" class="btn">Comprar ahora</a>
         </div>
-  
-        <div class="box">
-          <img src="images/category-2.jpeg" alt="">
-          <div class="content">
-            <h3>vegetales frescos</h3>
-          </div>
+        <div class="image">
+          <img src="images/home-img-1.jpg" alt="">
         </div>
-  
-        <div class="box">
-          <img src="images/category-3.jpeg" alt="">
-          <div class="content">
-            <h3>especias orgánicas</h3>
-          </div>
-        </div>
+      </div>
 
-        <div class="box">
-          <img src="images/category-4.jpeg" alt="">
-          <div class="content">
-            <h3>carnes frescas</h3>
-          </div>
+      <div class="slide">
+        <div class="content">
+          <span>vegetales frescos</span>
+          <h3>Hasta 50% de descuento</h3>
+          <a href="#" class="btn">Comprar ahora</a>
         </div>
+        <div class="image">
+          <img src="images/home-img-2.jpg" alt="">
+        </div>
+      </div>
 
-        <div class="box">
-          <img src="images/category-5.jpeg" alt="">
-          <div class="content">
-            <h3>productos orgánicos</h3>
-          </div>
+      <div class="slide">
+        <div class="content">
+          <span>productos orgánicos</span>
+          <h3>Hasta 20% de descuento</h3>
+          <a href="#" class="btn">Comprar ahora</a>
         </div>
+        <div class="image">
+          <img src="images/home-img-3.jpg" alt="">
+        </div>
+      </div>
 
     </div>
 
-  </section>
-  <!-- almacen section end -->
+    <!-- Slide pagination start -->
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="prev()"></div>
+    <!-- Slide pagination end -->
 
+  </section>
+  <!-- home section end -->
+
+
+
+  <section class="banner-container">
+
+    <div class="banner">
+      <img src="images/banner-1.jpg" alt="">
+      <div class="content">
+        <span>frutas frescas</span>
+        <h3>Hasta 40% de descuento</h3>
+        <a href="#" class="btn">comprar ahora</a>
+      </div>
+    </div>
+
+    <div class="banner">
+      <img src="images/banner-2.jpg" alt="">
+      <div class="content">
+        <span>vegetales frescos</span>
+        <h3>Hasta 50% de descuento</h3>
+        <a href="#" class="btn">comprar ahora</a>
+      </div>
+    </div>
+
+    <div class="banner">
+      <img src="images/banner-3.jpg" alt="">
+      <div class="content">
+        <span>productos orgánicos</span>
+        <h3>Hasta 20% de descuento</h3>
+        <a href="#" class="btn">comprar ahora</a>
+      </div>
+    </div>
+
+  </section>
 
 
   <!-- footer section start -->
@@ -158,11 +180,11 @@
       <div class="box">
         <h3>Acceso Rápido</h3>
         <a href="home.html"> <i class="fas fa-arrow-right"></i>home</a>
-        <a href="shop.html"> <i class="fas fa-arrow-right"></i>almacén</a>
+        <a href="almacen.html"> <i class="fas fa-arrow-right"></i>almacén</a>
         <a href="about.html"> <i class="fas fa-arrow-right"></i>about</a>
-        <a href="review.html"> <i class="fas fa-arrow-right"></i>reseña</a>
+        <a href="resenia.html"> <i class="fas fa-arrow-right"></i>reseña</a>
         <a href="blog.html"> <i class="fas fa-arrow-right"></i>blog</a>
-        <a href="contact.html"> <i class="fas fa-arrow-right"></i>contacto</a>
+        <a href="contacto.html"> <i class="fas fa-arrow-right"></i>contacto</a>
       </div>
 
       <div class="box">
@@ -202,5 +224,4 @@
   <!-- custom js file link -->
   <script src="js/script.js"></script>
 </body>
-
 </html>
