@@ -818,6 +818,55 @@ section {
 /* Almacen fin */
 
 
+
+/* Acerca de start */
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.about .image {
+  flex: 1 1 40rem;
+}
+
+.about .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.about .content {
+  flex: 1 1 40rem;
+  padding: 2.5rem;
+}
+
+.about .content span {
+  color: var(--green);
+  font-size: 2.5rem;
+}
+
+.about .content h3 {
+  font-size: 3rem;
+  color: var(--black);
+  padding-top: 0.5rem;
+  margin: 1rem 0;
+}
+
+.about .content p {
+  font-size: 1.4rem;
+  color: var(--light-color);
+  line-height: 2;
+  padding: 1rem 0;
+}
+/* Acerca de end */
+
+
+
 /* Media queries */
 
 @media (max-width: 991px) {
