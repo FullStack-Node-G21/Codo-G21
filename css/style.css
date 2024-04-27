@@ -586,9 +586,6 @@ section {
   cursor: pointer; */
 }
 
-
-
-
 /* Banner fin */
 
 /* Home fin */
@@ -927,9 +924,52 @@ section {
   color: var(--green);
 }
 
-
 /* Gallery end */
 
+/* Resenia start */
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 1.5rem;
+}
+
+.info-container .info {
+  /* position: relative;
+  background: var(--light-bg); */
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  /* border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  box-shadow: var(--box-shadow); */
+}
+
+.info-container .info img {
+  height: 7rem;
+  object-fit: cover;
+  /* border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; */
+}
+
+.info-container .info .content h3 {
+  font-size: 2rem;
+  color: var(--black);
+  padding-bottom: 0.5rem;
+}
+
+.info-container .info .content span {
+  font-size: 1.5rem;
+  color: var(--light-color);
+}
+
+/* Resenia end */
 
 /* Media queries */
 
