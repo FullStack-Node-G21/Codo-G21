@@ -586,9 +586,6 @@ section {
   cursor: pointer; */
 }
 
-
-
-
 /* Banner fin */
 
 /* Home fin */
@@ -927,9 +924,106 @@ section {
   color: var(--green);
 }
 
-
 /* Gallery end */
 
+/* Resenia start */
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 1.5rem;
+}
+
+.info-container .info {
+  /* position: relative;
+  background: var(--light-bg); */
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  /* border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  box-shadow: var(--box-shadow); */
+}
+
+.info-container .info img {
+  height: 7rem;
+  object-fit: cover;
+  /* border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; */
+}
+
+.info-container .info .content h3 {
+  font-size: 2rem;
+  color: var(--black);
+  padding-bottom: 0.5rem;
+}
+
+.info-container .info .content span {
+  font-size: 1.5rem;
+  color: var(--light-color);
+}
+
+.review {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.review .box {
+  position: relative;
+  background: var(--light-bg);
+  padding: 2rem;
+  border: var(--border);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.review .box .user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.review .box .user img {
+  height: 7rem;
+  width: 7rem;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.review .box .user h3 {
+  font-size: 2.2rem;
+  color: var(--black);
+}
+
+.review .box .user span {
+  font-size: 1.4rem;
+  color: var(--green);
+}
+
+.review .box p {
+  font-size: 1.4rem;
+  color: var(--light-color);
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+/* Resenia end */
 
 /* Media queries */
 
