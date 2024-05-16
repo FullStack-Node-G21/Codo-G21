@@ -1,3 +1,7 @@
+document.getElementById('logo').addEventListener('click', function (event) {
+  event.preventDefault();
+});
+
 // Button to toggle the search form
 let searchForm = document.querySelector('.search-form');
 
