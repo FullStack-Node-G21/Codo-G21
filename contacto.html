@@ -1,23 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto | Los Ahorristas</title>
-
-  <!-- font awesome cdn link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-  <!-- custom css file link -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <!-- header section start -->
   <header class="header">
-
     <a href="home.html" class="logo" id="logo"> <i class="fas fa-shopping-basket"></i> Los ahorristas </a>
 
     <nav class="navbar">
@@ -36,13 +30,11 @@
       <div id="login-btn" class="fas fa-user"></div>
     </div>
 
-    <!-- search form -->
     <form action="#" class="search-form">
       <input type="search" id="search-box" placeholder="Buscar aquí...">
       <label for="search-box" class="fas fa-search"></label>
     </form>
 
-    <!-- shopping cart details -->
     <div class="shopping-cart">
       <div class="box">
         <i class="fas fa-times"></i>
@@ -78,7 +70,7 @@
       <a href="#" class="btn">Cesta de compra</a>
     </div>
 
-    <!-- login form -->
+
     <form action="#" class="login-form">
       <h3>Iniciar sesión</h3>
       <input type="email" placeholder="ingresa tu correo electrónico" class="box">
@@ -91,67 +83,58 @@
       <p>Te olvidaste la contraseña? <a href="#"> Click aquí</a></p>
       <p>No tenes una cuenta? <a href="#"> Regístrate</a></p>
     </form>
-
   </header>
-  <!-- header section end -->
 
-  <!-- contacto section start -->
-    <div class="heading">
-      <h1>contacto</h1>
-      <p> <a href="home.html">home >></a> contacto </p>
+  <div class="heading">
+    <h1>contacto</h1>
+    <p> <a href="home.html">home >></a> contacto </p>
+  </div>
+
+  <section class="contact">
+    <div class="icons-container">
+      <div class="icons">
+        <i class="fas fa-phone"></i>
+        <h3>nuestro número</h3>
+        <p>+123-456-7890</p>
+        <p>+111-222-3333</p>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-envelope"></i>
+        <h3>nuestro correo electrónico</h3>
+        <p>losahorristas@gmail.com</p>
+        <p>ahorristas@gmail.com</p>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>nuestra dirección</h3>
+        <p>Mar del Plata, Argentina</p>
+      </div>
     </div>
 
-    <section class="contact">
-
-      <div class="icons-container">
-        <div class="icons">
-          <i class="fas fa-phone"></i>
-          <h3>nuestro número</h3>
-          <p>+123-456-7890</p>
-          <p>+111-222-3333</p>
+    <div class="row">
+      <form action="">
+        <h3>envíenos un mensaje</h3>
+        <div class="inputBox">
+          <input type="text" placeholder="introduzca su nombre" class="box">
+          <input type="email" placeholder="introduzca su email" class="box">
         </div>
-
-        <div class="icons">
-          <i class="fas fa-envelope"></i>
-          <h3>nuestro correo electrónico</h3>
-          <p>losahorristas@gmail.com</p>
-          <p>ahorristas@gmail.com</p>
+        <div class="inputBox">
+          <input type="number" placeholder="introduzca su número" class="box">
+          <input type="text" placeholder="introduzca su asunto" class="box">
         </div>
+        <textarea placeholder="su mensaje" cols="30" rows="10"></textarea>
+        <input type="submit" value="enviar mensaje" class="btn">
+      </form>
 
-        <div class="icons">
-          <i class="fas fa-map-marker-alt"></i>
-          <h3>nuestra dirección</h3>
-          <p>Mar del Plata, Argentina</p>
-        </div>
-      </div>
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201170.1128301093!2d-57.76534592601326!3d-38.01718112565856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1714515910117!5m2!1ses!2sar"
+        allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </section>
 
-      <div class="row">
-
-        <form action="">
-          <h3>envíenos un mensaje</h3>
-          <div class="inputBox">
-            <input type="text" placeholder="introduzca su nombre" class="box">
-            <input type="email" placeholder="introduzca su email" class="box">
-          </div>
-          <div class="inputBox">
-            <input type="number" placeholder="introduzca su número" class="box">
-            <input type="text" placeholder="introduzca su asunto" class="box">
-          </div>
-          <textarea placeholder="su mensaje" cols="30" rows="10"></textarea>
-          <input type="submit" value="enviar mensaje" class="btn">
-        </form>
-
-        <iframe
-          class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201170.1128301093!2d-57.76534592601326!3d-38.01718112565856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1714515910117!5m2!1ses!2sar"
-          allowfullscreen="" loading="lazy">
-        </iframe>
-
-      </div>
-
-    </section>
-  <!-- contacto section end -->
-
-  <!-- footer section start -->
   <section class="footer">
     <div class="box-container">
       <div class="box">
@@ -193,12 +176,7 @@
 
     </div>
   </section>
-
   <section class="credit">creado por Grupo 21 | todos los derechos reservados!</section>
-
-  <!-- footer section ends -->
-
-  <!-- custom js file link -->
   <script src="js/script.js"></script>
 </body>
 

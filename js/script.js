@@ -2,7 +2,7 @@ document.getElementById('logo').addEventListener('click', function (event) {
   event.preventDefault();
 });
 
-// Button to toggle the search form
+// Botón para alternar el formulario de búsqueda
 let searchForm = document.querySelector('.search-form');
 
 document.querySelector('#search-btn').onclick = () => {
@@ -12,7 +12,7 @@ document.querySelector('#search-btn').onclick = () => {
   navbar.classList.remove('active');
 }
 
-// Button to toggle the shopping cart
+//Botón para alternar el carrito de compras
 let cart = document.querySelector('.shopping-cart');
 
 document.querySelector('#cart-btn').onclick = () => {
@@ -22,7 +22,8 @@ document.querySelector('#cart-btn').onclick = () => {
   navbar.classList.remove('active');
 }
 
-// Button to toggle the login form
+
+// Botón para alternar el formulario de inicio de sesión
 let loginForm = document.querySelector('.login-form');
 
 document.querySelector('#login-btn').onclick = () => {
@@ -32,7 +33,7 @@ document.querySelector('#login-btn').onclick = () => {
   navbar.classList.remove('active');
 }
 
-// Button to toggle the navbar
+// Botón para alternar la barra de navegación
 let navbar = document.querySelector('.navbar');
 
 document.querySelector('#menu-btn').onclick = () => {
@@ -42,7 +43,7 @@ document.querySelector('#menu-btn').onclick = () => {
   loginForm.classList.remove('active');
 }
 
-// Close the search form, cart, login form, and navbar when clicking outside
+// Cierra el formulario de búsqueda, el carrito, el formulario de inicio de sesión y la barra de navegación al hacer clic fuera
 window.onscroll = () => {
   searchForm.classList.remove('active');
   cart.classList.remove('active');
@@ -50,7 +51,8 @@ window.onscroll = () => {
   navbar.classList.remove('active');
 }
 
-// For Home Page Slider
+
+// Para el control deslizante de la página de inicio
 let slides = document.querySelectorAll('.home .slides-container .slide');
 let index = 0;
 
@@ -65,4 +67,5 @@ function prev() {
   index = (index - 1 + slides.length) % slides.length;
   slides[index].classList.add('active');
 }
-// End Home Page Slider
+
+// Finalizar el control deslizante de la página de inicio
