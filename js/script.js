@@ -1,3 +1,4 @@
+// Evento para quitar lo clicleable en el logo.
 document.getElementById('logo').addEventListener('click', function (event) {
   event.preventDefault();
 });
