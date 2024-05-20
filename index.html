@@ -1,29 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home  | Los Ahorristas</title>
-
-  <!-- font awesome cdn link -->
+  <title>Mercado | Los Ahorristas</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-  <!-- custom css file link -->
   <link rel="stylesheet" href="css/style.css">
 </head>
+
+
 <body>
-  <!-- header section start -->
   <header class="header">
 
-    <a href="index.html" class="logo"> <i class="fas fa-shopping-basket"></i> Los ahorristas </a>
+    <a href="home.html" class="logo" id="logo"> <i class="fas fa-shopping-basket"></i> Los ahorristas </a>
 
     <nav class="navbar">
-      <a href="index.html">home</a>
-      <a href="almacen.html">almacén</a>
-      <a href="acerca_de.html">acerca de</a>
-      <a href="resenia.html">reseñas</a>
-      <a href="blog.html">blog</a>
+      <a href="index.html">Inicio</a>
+      <a href="almacen.html">Productos</a>
+      <a href="acerca_de.html">quienes somos</a>
       <a href="contacto.html">contacto</a>
     </nav>
 
@@ -34,13 +30,13 @@
       <div id="login-btn" class="fas fa-user"></div>
     </div>
 
-    <!-- search form -->
+    <!-- Formulario de búsqueda -->
     <form action="#" class="search-form">
       <input type="search" id="search-box" placeholder="Buscar aquí...">
       <label for="search-box" class="fas fa-search"></label>
     </form>
 
-    <!-- shopping cart details -->
+    <!-- detalles del carrito de compras -->
     <div class="shopping-cart">
       <div class="box">
         <i class="fas fa-times"></i>
@@ -76,24 +72,24 @@
       <a href="#" class="btn">Cesta de compra</a>
     </div>
 
-    <!-- login form -->
+    <!-- formulario de inicio de sesión -->
     <form action="#" class="login-form">
-      <h3>login form</h3>
-      <input type="email" placeholder="enter your email" class="box">
-      <input type="password" placeholder="enter your password" class="box">
+      <h3>Iniciar sesión</h3>
+      <input type="email" placeholder="ingresa tu correo electrónico" class="box">
+      <input type="password" placeholder="ingresa tu contraseña" class="box">
       <div class="remember">
-        <input type="checkbox" name= "" id="remember-me">
-        <label for="remember-me">remember me</label>
+        <input type="checkbox" name="" id="remember-me">
+        <label for="remember-me">recuerdeme</label>
       </div>
-      <input type="submit" value="login now" class="btn">
-      <p>forget password? <a href="#">click here</a></p>
-      <p>don't have an account? <a href="#">register now</a></p>
+      <input type="submit" value="Inicia sesión" class="btn">
+      <p>Te olvidaste la contraseña? <a href="#"> Click aquí</a></p>
+      <p>No tenes una cuenta? <a href="#"> Regístrate</a></p>
     </form>
 
   </header>
-  <!-- header section end -->
 
-  <!-- home section start -->
+
+  <!-- Inicio -->
   <section class="home">
     <div class="slides-container">
 
@@ -132,13 +128,11 @@
 
     </div>
 
-    <!-- Slide pagination start -->
+    <!-- Flechas -->
     <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
     <div id="prev-slide" class="fas fa-angle-left" onclick="prev()"></div>
-    <!-- Slide pagination end -->
-
   </section>
-  
+
 
 
 
@@ -172,18 +166,16 @@
     </div>
 
   </section>
-  <!-- home section end -->
 
-  <!-- footer section start -->
+
+  <!-- footer  -->
   <section class="footer">
     <div class="box-container">
       <div class="box">
         <h3>Acceso Rápido</h3>
-        <a href="index.html"> <i class="fas fa-arrow-right"></i>home</a>
+        <a href="index.html"> <i class="fas fa-arrow-right"></i>inicio</a>
         <a href="almacen.html"> <i class="fas fa-arrow-right"></i>almacén</a>
         <a href="acerca_de.html"> <i class="fas fa-arrow-right"></i>acerca de</a>
-        <a href="resenia.html"> <i class="fas fa-arrow-right"></i>reseñas</a>
-        <a href="blog.html"> <i class="fas fa-arrow-right"></i>blog</a>
         <a href="contacto.html"> <i class="fas fa-arrow-right"></i>contacto</a>
       </div>
 
@@ -217,11 +209,11 @@
     </div>
   </section>
 
-  <section class="credit">created by Grupo 21 | all rights reserved!</section>
+  <section class="credit">creado por Grupo 21 | todos los derechos reservados!</section>
 
-  <!-- footer section ends -->
 
-  <!-- custom js file link -->
+  <!-- js script -->
   <script src="js/script.js"></script>
 </body>
+
 </html>

@@ -1,31 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Almacén | Los Ahorristas</title>
-
-  <!-- font awesome cdn link -->
+  <title>Inicio | Los Ahorristas</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-  <!-- custom css file link -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <!-- header section start -->
   <header class="header">
-
-    <a href="index.html" class="logo"> <i class="fas fa-shopping-basket"></i> Los ahorristas </a>
+    <a href="index.html" class="logo" id="logo"> <i class="fas fa-shopping-basket"></i> Los ahorristas </a>
 
     <nav class="navbar">
-      <a href="index.html">home</a>
-      <a href="almacen.html">almacén</a>
-      <a href="acerca_de.html">acerca de</a>
-      <a href="resenia.html">reseñas</a>
-      <a href="blog.html">blog</a>
+      <a href="index.html">Inicio</a>
+      <a href="almacen.html">Productos</a>
+      <a href="acerca_de.html">quienes somos</a>
       <a href="contacto.html">contacto</a>
     </nav>
 
@@ -36,13 +28,11 @@
       <div id="login-btn" class="fas fa-user"></div>
     </div>
 
-    <!-- search form -->
     <form action="#" class="search-form">
       <input type="search" id="search-box" placeholder="Buscar aquí...">
       <label for="search-box" class="fas fa-search"></label>
     </form>
 
-    <!-- shopping cart details -->
     <div class="shopping-cart">
       <div class="box">
         <i class="fas fa-times"></i>
@@ -78,86 +68,70 @@
       <a href="#" class="btn">Cesta de compra</a>
     </div>
 
-    <!-- login form -->
     <form action="#" class="login-form">
-      <h3>login form</h3>
-      <input type="email" placeholder="enter your email" class="box">
-      <input type="password" placeholder="enter your password" class="box">
+      <h3>Iniciar sesión</h3>
+      <input type="email" placeholder="ingresa tu correo electrónico" class="box">
+      <input type="password" placeholder="ingresa tu contraseña" class="box">
       <div class="remember">
         <input type="checkbox" name="" id="remember-me">
-        <label for="remember-me">remember me</label>
+        <label for="remember-me">recuerdeme</label>
       </div>
-      <input type="submit" value="login now" class="btn">
-      <p>forget password? <a href="#">click here</a></p>
-      <p>don't have an account? <a href="#">register now</a></p>
+      <input type="submit" value="Inicia sesión" class="btn">
+      <p>Te olvidaste la contraseña? <a href="#"> Click aquí</a></p>
+      <p>No tenes una cuenta? <a href="#"> Regístrate</a></p>
     </form>
-
   </header>
-  <!-- header section end -->
 
-
-
-
-  <!-- almacen section start -->
   <div class="heading">
     <h1>nuestro almacén</h1>
-    <p> <a href="index.html">home >></a> almacén </p>
+    <p> <a href="index.html">Inicio >></a> almacén </p>
   </div>
 
   <section class="category">
-
     <h1 class="title">nuestras <span>categorías</span> <a href="#">ver todas >></a> </h1>
 
     <div class="box-container">
-        
-        <div class="box">
-          <img src="images/category-1.jpeg" alt="">
-          <div class="content">
-            <h3>frutas frescas</h3>
-          </div>
+      <div class="box">
+        <img src="images/category-1.jpeg" alt="">
+        <div class="content">
+          <h3>frutas frescas</h3>
         </div>
-  
-        <div class="box">
-          <img src="images/category-2.jpeg" alt="">
-          <div class="content">
-            <h3>vegetales frescos</h3>
-          </div>
-        </div>
-  
-        <div class="box">
-          <img src="images/category-3.jpeg" alt="">
-          <div class="content">
-            <h3>especias orgánicas</h3>
-          </div>
-        </div>
+      </div>
 
-        <div class="box">
-          <img src="images/category-4.jpeg" alt="">
-          <div class="content">
-            <h3>carnes frescas</h3>
-          </div>
+      <div class="box">
+        <img src="images/category-2.jpeg" alt="">
+        <div class="content">
+          <h3>vegetales frescos</h3>
         </div>
+      </div>
 
-        <div class="box">
-          <img src="images/category-5.jpeg" alt="">
-          <div class="content">
-            <h3>productos orgánicos</h3>
-          </div>
+      <div class="box">
+        <img src="images/category-3.jpeg" alt="">
+        <div class="content">
+          <h3>especias orgánicas</h3>
         </div>
+      </div>
 
+      <div class="box">
+        <img src="images/category-4.jpeg" alt="">
+        <div class="content">
+          <h3>carnes frescas</h3>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/category-5.jpeg" alt="">
+        <div class="content">
+          <h3>productos orgánicos</h3>
+        </div>
+      </div>
     </div>
-
   </section>
-  <!-- almacen section end -->
 
-
-  <!-- productos section start -->
   <section class="products">
-
     <h1 class="title">nuestros <span>productos</span> <a href="#">ver todos >></a> </h1>
 
     <div class="box-container">
-
       <div class="box">
         <div class="icons">
           <a href="#" class="fas fa-shopping-cart"></a>
@@ -179,7 +153,6 @@
           </div>
         </div>
       </div>
-
 
       <div class="box">
         <div class="icons">
@@ -203,7 +176,6 @@
         </div>
       </div>
 
-
       <div class="box">
         <div class="icons">
           <a href="#" class="fas fa-shopping-cart"></a>
@@ -225,7 +197,6 @@
           </div>
         </div>
       </div>
-
 
       <div class="box">
         <div class="icons">
@@ -249,7 +220,6 @@
         </div>
       </div>
 
-
       <div class="box">
         <div class="icons">
           <a href="#" class="fas fa-shopping-cart"></a>
@@ -271,7 +241,6 @@
           </div>
         </div>
       </div>
-
 
       <div class="box">
         <div class="icons">
@@ -295,7 +264,6 @@
         </div>
       </div>
 
-
       <div class="box">
         <div class="icons">
           <a href="#" class="fas fa-shopping-cart"></a>
@@ -318,7 +286,6 @@
         </div>
       </div>
 
-
       <div class="box">
         <div class="icons">
           <a href="#" class="fas fa-shopping-cart"></a>
@@ -340,23 +307,16 @@
           </div>
         </div>
       </div>
-
-
     </div>
   </section>
-  <!-- productos section end -->
 
-
-  <!-- footer section start -->
   <section class="footer">
     <div class="box-container">
       <div class="box">
         <h3>Acceso Rápido</h3>
-        <a href="index.html"> <i class="fas fa-arrow-right"></i>home</a>
+        <a href="index.html"> <i class="fas fa-arrow-right"></i>Inicio</a>
         <a href="shop.html"> <i class="fas fa-arrow-right"></i>almacén</a>
         <a href="acerca_de.html"> <i class="fas fa-arrow-right"></i>acerca de</a>
-        <a href="review.html"> <i class="fas fa-arrow-right"></i>reseñas</a>
-        <a href="blog.html"> <i class="fas fa-arrow-right"></i>blog</a>
         <a href="contact.html"> <i class="fas fa-arrow-right"></i>contacto</a>
       </div>
 
@@ -386,15 +346,9 @@
         </form>
         <img src="images/payment.png" alt="" class="payment">
       </div>
-
     </div>
   </section>
-
-  <section class="credit">created by Grupo 21 | all rights reserved!</section>
-
-  <!-- footer section ends -->
-
-  <!-- custom js file link -->
+  <section class="credit">creado por Grupo 21 | todos los derechos reservados!</section>
   <script src="js/script.js"></script>
 </body>
 
