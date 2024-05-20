@@ -18,9 +18,9 @@
 }
 
 :root {
-  --green: #bac34e;
-  --black: #222;
-  --white: #fff;
+  --violeta: #990CD9;
+  --negro: #222;
+  --blanco: #F3F4F6;
   --light-color: #666;
   --light-bg: #f3f3f3;
   --border: 0.1rem solid rgba(0, 0, 0, 0.1);
@@ -55,7 +55,7 @@ section {
 
 .heading h1 {
   font-size: 4rem;
-  color: var(--black);
+  color: var(--negro);
   padding-bottom: 0rem;
 }
 
@@ -66,12 +66,12 @@ section {
 }
 
 .heading p a {
-  color: var(--black);
+  color: var(--negro);
   padding-right: 0.5rem;
 }
 
 .heading p a:hover {
-  color: var(--green);
+  color: var(--violeta);
 }
 
 .title {
@@ -81,12 +81,12 @@ section {
   margin-bottom: 3rem;
   padding: 1.2rem 0;
   border-bottom: var(--border);
-  color: var(--black);
+  color: var(--negro);
 }
 
 .title span {
   padding-left: 0.7rem;
-  color: var(--green);
+  color: var(--violeta);
 }
 
 .title a {
@@ -96,7 +96,7 @@ section {
 }
 
 .title a:hover {
-  color: var(--green);
+  color: var(--violeta);
 }
 
 /* Almacen fin */
@@ -105,8 +105,8 @@ section {
   margin-top: 1rem;
   display: inline-block;
   padding: 0.8rem 2rem;
-  background: var(--green);
-  color: var(--white);
+  background: var(--violeta);
+  color: var(--blanco);
   font-size: 1.7rem;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
@@ -117,7 +117,7 @@ section {
 }
 
 .btn:hover {
-  background: var(--black);
+  background: var(--negro);
 }
 
 .header {
@@ -126,7 +126,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: var(--white);
+  background: var(--blanco);
   box-shadow: var(--box-shadow);
   display: flex;
   align-items: center;
@@ -137,11 +137,12 @@ section {
 .logo {
   font-size: 2.5rem;
   font-weight: bolder;
-  color: var(--black);
+  color: var(--negro);
+  cursor: default;
 }
 
 .logo i {
-  color: var(--green);
+  color: var(--violeta);
   padding-right: 0.5rem;
 }
 
@@ -152,7 +153,7 @@ section {
 }
 
 .navbar a:hover {
-  color: var(--green);
+  color: var(--violeta);
 }
 
 .icons div {
@@ -163,7 +164,7 @@ section {
 }
 
 .icons div:hover {
-  color: var(--green);
+  color: var(--violeta);
 }
 
 .search-form {
@@ -180,7 +181,7 @@ section {
   align-items: center;
   height: 5rem;
   box-shadow: var(--box-shadow);
-  background: var(--white);
+  background: var(--blanco);
 }
 
 .search-form.active {
@@ -193,12 +194,12 @@ section {
   padding: 0 2rem;
   margin-right: 1.5rem;
   font-size: 1.7rem;
-  color: var(--black);
+  color: var(--negro);
   text-transform: none;
 }
 
 .search-form input:focus {
-  border: 0.1rem solid var(--green);
+  border: 0.1rem solid var(--violeta);
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
@@ -216,14 +217,14 @@ section {
 }
 
 .search-form label:hover {
-  color: var(--green);
+  color: var(--violeta);
 }
 
 .shopping-cart {
   position: absolute;
   top: 115%;
   right: -105%;
-  background: var(--white);
+  background: var(--blanco);
   width: 35rem;
   padding: 2rem;
   border-radius: 0.5rem;
@@ -262,13 +263,13 @@ section {
 }
 
 .shopping-cart .box .fa-times:hover {
-  color: var(--green);
+  color: var(--violeta);
 }
 
 .shopping-cart img {
   height: 9rem;
   object-fit: cover;
-  border: 0.1rem solid var(--green);
+  border: 0.1rem solid var(--violeta);
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
@@ -279,7 +280,7 @@ section {
 .shopping-cart .content h3 {
   font-size: 1.7rem;
   padding-bottom: 0.5rem;
-  color: var(--black);
+  color: var(--negro);
 }
 
 .shopping-cart .content span {
@@ -298,7 +299,7 @@ section {
 }
 
 .shopping-cart .total span {
-  color: var(--black);
+  color: var(--negro);
 }
 
 .shopping-cart .btn {
@@ -312,7 +313,7 @@ section {
   position: absolute;
   top: 115%;
   right: -105%;
-  background: var(--white);
+  background: var(--blanco);
   width: 35rem;
   padding: 2rem;
   border-radius: 0.5rem;
@@ -333,7 +334,7 @@ section {
 }
 
 .login-form h3 {
-  color: var(--black);
+  color: var(--negro);
   text-transform: uppercase;
   font-size: 2.2rem;
   text-align: center;
@@ -345,7 +346,7 @@ section {
   
   padding: 1rem 1.2rem;
   font-size: 1.5rem;
-  color: var(--black);
+  color: var(--negro);
   text-transform: none;
   width: 100%;
   border: var(--border);
@@ -382,7 +383,7 @@ section {
 }
 
 .login-form p a {
-  color: var(--green);
+  color: var(--violeta);
 }
 
 .login-form p a:hover {
@@ -449,7 +450,7 @@ section {
 
 .home .slides-container .slide .content h3 {
   font-size: 6rem;
-  color: var(--black);
+  color: var(--negro);
   padding: 0.5rem 0;
   margin: 1rem 0;
 }
@@ -484,20 +485,20 @@ section {
   line-height: 5rem;
   box-shadow: var(--box-shadow);
   text-align: center;
-  background: var(--white);
+  background: var(--blanco);
   font-size: 3rem;
-  color: var(--black);
+  color: var(--negro);
   cursor: pointer;
 }
 
 #prev-slide:hover {
-  background: var(--green);
-  color: var(--white);
+  background: var(--violeta);
+  color: var(--blanco);
 }
 
 #next-slide:hover {
-  background: var(--green);
-  color: var(--white);
+  background: var(--violeta);
+  color: var(--blanco);
 }
 
 #prev-slide {
@@ -563,20 +564,20 @@ section {
 
 .banner-container .banner .content span {
   font-size: 1.5rem;
-  color: var(--black);
+  color: var(--negro);
 }
 
 .banner-container .banner .content h3 {
   font-size: 1.5rem;
-  color: var(--black);
+  color: var(--negro);
   padding-top: 0.5rem;
 }
 
 .banner-container .banner .content .btn {
   /* display: inline-block; */
   padding: 0.8rem 2.5rem;
-  /* background: var(--green);
-  color: var(--white);
+  /* background: var(--violeta);
+  color: var(--blanco);
   font-size: 1.5rem;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
@@ -606,7 +607,7 @@ section {
 
 .footer .box-container .box h3 {
   font-size: 2.2rem;
-  color: var(--black);
+  color: var(--negro);
   margin-bottom: 1rem;
   padding: 1rem 0;
 }
@@ -626,7 +627,7 @@ section {
 }
 
 .footer .box-container .box a:hover {
-  color: var(--green);
+  color: var(--violeta);
 }
 
 .footer .box-container .box a:hover i {
@@ -654,7 +655,7 @@ section {
   width: 100%;
   padding: 1rem 1.2rem;
   font-size: 1.6rem;
-  color: var(--black);
+  color: var(--negro);
   margin: 1rem 0;
   text-transform: none;
   border: var(--border);
@@ -675,8 +676,8 @@ section {
 .credit {
   text-align: center;
   padding: 1rem 0;
-  background: var(--green);
-  color: var(--white);
+  background: var(--violeta);
+  color: var(--blanco);
   font-size: 1.5rem;
 }
 
@@ -710,7 +711,7 @@ section {
 }
 
 .category .box-container .box:hover h3 {
-  color: var(--green);
+  color: var(--violeta);
 }
 
 .products .box-container {
@@ -732,7 +733,7 @@ section {
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
-  background: var(--white); */
+  background: var(--blanco); */
 }
 
 .products .box-container .box:hover .icons {
@@ -758,14 +759,14 @@ section {
   width: 5rem;
   height: 5rem;
   line-height: 5rem;
-  background: var(--white);
+  background: var(--blanco);
   box-shadow: var(--box-shadow);
   color: var(--light-color);
 }
 
 .products .box-container .box a:hover {
-  background: var(--green);
-  color: var(--white);
+  background: var(--violeta);
+  color: var(--blanco);
 }
 
 .products .box-container .box .image {
@@ -797,19 +798,19 @@ section {
 
 .products .box-container .box .content h3 {
   font-size: 2rem;
-  color: var(--black);
+  color: var(--negro);
   padding: 1rem 0;
 }
 
 .products .box-container .box .content .price {
   font-size: 2rem;
-  color: var(--black);
+  color: var(--negro);
   padding: 1rem 0;
 }
 
 .products .box-container .box .content .stars i {
   font-size: 1.7rem;
-  color: var(--green);
+  color: var(--violeta);
 }
 
 /* Almacen fin */
@@ -843,13 +844,13 @@ section {
 }
 
 .about .content span {
-  color: var(--green);
+  color: var(--violeta);
   font-size: 2.5rem;
 }
 
 .about .content h3 {
   font-size: 3rem;
-  color: var(--black);
+  color: var(--negro);
   padding-top: 0.5rem;
   margin: 1rem 0;
 }
@@ -916,12 +917,12 @@ section {
 
 .gallery .box-container .icons a {
   font-size: 2.5rem;
-  color: var(--white);
+  color: var(--blanco);
   margin: 0 1.5rem;
 }
 
 .gallery .box-container .icons a:hover {
-  color: var(--green);
+  color: var(--violeta);
 }
 
 /* Gallery end */
@@ -960,7 +961,7 @@ section {
 
 .info-container .info .content h3 {
   font-size: 2rem;
-  color: var(--black);
+  color: var(--negro);
   padding-bottom: 0.5rem;
 }
 
@@ -1008,12 +1009,12 @@ section {
 
 .review .box .user h3 {
   font-size: 2.2rem;
-  color: var(--black);
+  color: var(--negro);
 }
 
 .review .box .user span {
   font-size: 1.4rem;
-  color: var(--green);
+  color: var(--violeta);
 }
 
 .review .box p {
@@ -1095,17 +1096,17 @@ section {
 }
 
 .content .icons a:hover {
-  color: var(--green);
+  color: var(--violeta);
 }
 
 .content .icons a i {
   padding-right: 0.5rem;
-  color: var(--green);
+  color: var(--violeta);
 }
 
 .content h3 {
   font-size: 2.2rem;
-  color: var(--black);
+  color: var(--negro);
   /* padding-bottom: 0.5rem; */
 }
 
@@ -1135,8 +1136,8 @@ section {
   width: 6rem;
   line-height: 6rem;
   font-size: 2.5rem;
-  background: var(--green);
-  color: var(--white);
+  background: var(--violeta);
+  color: var(--blanco);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1146,7 +1147,7 @@ section {
 
 .contact .icons-container .icons h3 {
   font-size: 2rem;
-  color: var(--black);
+  color: var(--negro);
   padding: 1rem 0;
 }
 
@@ -1171,7 +1172,7 @@ section {
 
 .row form h3 {
   font-size: 2.5rem;
-  color: var(--black);
+  color: var(--negro);
   padding-bottom: 1rem;
 }
 
@@ -1185,7 +1186,7 @@ section {
   width: 49%;
   /* padding: 1rem;
   font-size: 1.5rem;
-  color: var(--black);
+  color: var(--negro);
   margin-bottom: 1rem;
   border: var(--border);
   border-radius: 0.5rem;
@@ -1199,7 +1200,7 @@ section {
   padding: 1rem 1.2rem;
   font-size: 1.6rem;
   border: var(--border);
-  color: var(--black);
+  color: var(--negro);
   text-transform: none;
   margin: 1rem 0;
 }
@@ -1276,7 +1277,7 @@ section {
     top: 99%;
     left: 0;
     right: 0;
-    background: var(--white);
+    background: var(--blanco);
     border-top: var(--border);
     border-bottom: var(--border);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
