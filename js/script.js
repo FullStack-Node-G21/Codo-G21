@@ -74,3 +74,11 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
   event.preventDefault(); // Previene el comportamiento predeterminado del formulario
   // Lógica para enviar los datos
 });
+
+// Formulario de mensaje
+document
+  .getElementById('mensajeForm')
+  .addEventListener('submit', function (event) {
+    event.preventDefault(); // Previene el comportamiento predeterminado del formulario
+    // Lógica para enviar los datos
+  });
