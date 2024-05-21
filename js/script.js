@@ -69,4 +69,8 @@ function prev() {
   slides[index].classList.add('active');
 }
 
-// Finalizar el control deslizante de la página de inicio
+// Formulario para suscribirse
+document.getElementById('myForm').addEventListener('submit', function (event) {
+  event.preventDefault(); // Previene el comportamiento predeterminado del formulario
+  // Lógica para enviar los datos
+});
