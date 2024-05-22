@@ -45,7 +45,7 @@ section {
 
 /* Almacen inicio */
 .heading {
-  background: url(../images/heading-bg.jpg) no-repeat;
+  background: url(../images/productos.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -71,6 +71,66 @@ section {
 }
 
 .heading p a:hover {
+  color: var(--violeta);
+}
+
+.heading-contacto {
+  background: url(../images/contacto.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 25rem;
+}
+
+.heading-contacto h1 {
+  font-size: 4rem;
+  color: var(--negro);
+  padding-bottom: 0rem;
+}
+
+.heading-contacto p {
+  font-size: 2rem;
+  color: var(--light-color);
+  padding-top: 1rem;
+}
+
+.heading-contacto p a {
+  color: var(--negro);
+  padding-right: 0.5rem;
+}
+
+.heading-contacto p a:hover {
+  color: var(--violeta);
+}
+
+.heading-empleados {
+  background: url(../images/empleado.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 25rem;
+}
+
+.heading-empleados h1 {
+  font-size: 4rem;
+  color: var(--negro);
+  padding-bottom: 0rem;
+}
+
+.heading-empleados p {
+  font-size: 2rem;
+  color: var(--light-color);
+  padding-top: 1rem;
+}
+
+.heading-empleados p a {
+  color: var(--negro);
+  padding-right: 0.5rem;
+}
+
+.heading-empleados p a:hover {
   color: var(--violeta);
 }
 
@@ -247,7 +307,7 @@ section {
 .shopping-cart .box {
   display: flex;
   align-items: center;
-  gap:1.5rem;
+  gap: 1.5rem;
   margin-bottom: 1.5rem;
   position: relative;
 }
@@ -343,14 +403,14 @@ section {
 
 .login-form .box {
   margin: 0.7rem 0;
-  
+
   padding: 1rem 1.2rem;
   font-size: 1.5rem;
   color: var(--negro);
   text-transform: none;
   width: 100%;
   border: var(--border);
-    border-radius: 0.5rem;
+  border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
   -ms-border-radius: 0.5rem;
@@ -402,7 +462,7 @@ section {
     -ms-transform: translateX(-5rem);
     -o-transform: translateX(-5rem);
     opacity: 0;
-}
+  }
 }
 
 @keyframes fadeUp {
@@ -413,11 +473,11 @@ section {
     -ms-transform: scale(0.5);
     -o-transform: scale(0.5);
     opacity: 0;
-}
+  }
 }
 
 /* Home inicio */
-.home { 
+.home {
   padding-top: 14rem;
   background: url(../images/home-bg.jpg) no-repeat;
   background-size: cover;
@@ -726,14 +786,6 @@ section {
   background: var(--light-bg);
   text-align: center;
   overflow: hidden;
-  /* padding: 1rem;
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
-  -ms-border-radius: 0.5rem;
-  -o-border-radius: 0.5rem;
-  box-shadow: var(--box-shadow);
-  background: var(--blanco); */
 }
 
 .products .box-container .box:hover .icons {
@@ -861,6 +913,7 @@ section {
   line-height: 2;
   padding: 1rem 0;
 }
+
 /* Acerca de end */
 
 /* Gallery start */
@@ -1116,6 +1169,7 @@ section {
   line-height: 2;
   padding: 1rem 0;
 }
+
 /* Blog end */
 
 /* Contacto start */
@@ -1126,7 +1180,7 @@ section {
 }
 
 .contact .icons-container .icons {
-  text-align:center;
+  text-align: center;
   border: var(--border);
   padding: 2rem
 }
@@ -1196,7 +1250,8 @@ section {
   -o-border-radius: 0.5rem; */
 }
 
-.row .inputBox .box, textarea {
+.row .inputBox .box,
+textarea {
   padding: 1rem 1.2rem;
   font-size: 1.6rem;
   border: var(--border);
