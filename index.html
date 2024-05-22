@@ -17,7 +17,7 @@
     <a href="home.html" class="logo" id="logo"> <i class="fas fa-shopping-basket"></i> Los ahorristas </a>
 
     <nav class="navbar">
-      <a href="home.html">Inicio</a>
+      <a href="index.html">Inicio</a>
       <a href="almacen.html">Productos</a>
       <a href="acerca_de.html">quienes somos</a>
       <a href="contacto.html">contacto</a>
@@ -78,7 +78,7 @@
       <input type="email" placeholder="ingresa tu correo electrónico" class="box">
       <input type="password" placeholder="ingresa tu contraseña" class="box">
       <div class="remember">
-        <input type="checkbox" name="" id="remember-me">
+        <input type="checkbox" name="remember_me" id="remember-me">
         <label for="remember-me">recuerdeme</label>
       </div>
       <input type="submit" value="Inicia sesión" class="btn">
@@ -94,7 +94,7 @@
 
       <div class="slide active">
         <div class="content">
-          <span>frutas frescas</span>
+          <span>Bebidas</span>
           <h3>Hasta 40% de descuento</h3>
           <a href="#" class="btn">Comprar ahora</a>
         </div>
@@ -105,7 +105,7 @@
 
       <div class="slide">
         <div class="content">
-          <span>vegetales frescos</span>
+          <span>Quesos</span>
           <h3>Hasta 50% de descuento</h3>
           <a href="#" class="btn">Comprar ahora</a>
         </div>
@@ -116,7 +116,7 @@
 
       <div class="slide">
         <div class="content">
-          <span>productos orgánicos</span>
+          <span>carnes</span>
           <h3>Hasta 20% de descuento</h3>
           <a href="#" class="btn">Comprar ahora</a>
         </div>
@@ -140,7 +140,7 @@
     <div class="banner">
       <img src="images/banner-1.jpg" alt="">
       <div class="content">
-        <span>frutas frescas</span>
+        <span>fiambres</span>
         <h3>Hasta 40% de descuento</h3>
         <a href="#" class="btn">comprar ahora</a>
       </div>
@@ -149,7 +149,7 @@
     <div class="banner">
       <img src="images/banner-2.jpg" alt="">
       <div class="content">
-        <span>vegetales frescos</span>
+        <span>pescadería</span>
         <h3>Hasta 50% de descuento</h3>
         <a href="#" class="btn">comprar ahora</a>
       </div>
@@ -172,7 +172,7 @@
     <div class="box-container">
       <div class="box">
         <h3>Acceso Rápido</h3>
-        <a href="home.html"> <i class="fas fa-arrow-right"></i>Inicio</a>
+        <a href="index.html"> <i class="fas fa-arrow-right"></i>inicio</a>
         <a href="almacen.html"> <i class="fas fa-arrow-right"></i>almacén</a>
         <a href="acerca_de.html"> <i class="fas fa-arrow-right"></i>acerca de</a>
         <a href="contacto.html"> <i class="fas fa-arrow-right"></i>contacto</a>
@@ -198,7 +198,7 @@
       <div class="box">
         <h3>boletín informativo</h3>
         <p>Suscríbase para estar al día</p>
-        <form action="">
+        <form id="myForm" method="post">
           <input type="email" placeholder="Introduzca su email">
           <input type="submit" value="suscribirse" class="btn">
         </form>
@@ -208,7 +208,9 @@
     </div>
   </section>
 
-  <section class="credit">creado por Grupo 21 | todos los derechos reservados!</section>
+  <section class="credit">
+    <h6>creado por Grupo 21 | todos los derechos reservados!</h6>
+  </section>
 
 
   <!-- js script -->
